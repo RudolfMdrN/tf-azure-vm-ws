@@ -1,0 +1,51 @@
+    1  hello
+    2  echo hello
+    3  az login
+    4  az account show
+    5  terraform init
+    6  git status
+    7  git add *.tf
+    8  git commit - m "first syncpoint."
+    9  git commit -m "first syncpoint."
+   10  tflint
+   11  git status
+   12  git history
+   13  git log -1
+   14  terraform fmt
+   15  terraform fmt -recursive
+   16  terraform fmt
+   17  terraform validate
+   18  echo git reset --hard HEAD^
+   19  terraform plan -out tfplan
+   20  git stash
+   21  git stash pop
+   22  terraform apply tfplan
+   23  pwd
+   24  ls -l
+   25  cp * ..
+   26  ls -lstr
+   27  ls -l ..
+   28  git reset "HEAD^"
+   29  git status
+   30  terraform apply
+   31  tflint
+   32  git add .
+   33  git status
+   34  git unstage tfplan
+   35  git reset tfplan
+   36  git status
+   37  git reset .terraform.lock.hcl
+   38  git status
+   39  git commit -m "Saving state of work."
+   40  git push
+   41  git status
+   42  ls -lstr
+   43  tflint
+   44  tf validate
+   45  terraform validate
+   46  ssh-keygen -f id_rsa
+   47  ls -lstr
+   48  terraform validate
+   49  terraform plan -out tfplan
+   50  terraform apply "tfplan"
+   51  history > all-commands.txt
